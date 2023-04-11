@@ -86,6 +86,7 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     borderBottomColor: '#a8a39d',
     borderBottomWidth: StyleSheet.hairlineWidth,
+    alignItems: 'center'
   },
   input: {
     marginBottom: 20,
@@ -96,7 +97,8 @@ const styles = StyleSheet.create({
     width: 320,
     padding: 10,
     borderWidth: 1,
-    borderColor: '#141414'
+    borderColor: '#141414',
+    alignItems: 'auto'
   },
   loginText: {
     textAlign: 'center', 
