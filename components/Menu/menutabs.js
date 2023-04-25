@@ -52,7 +52,7 @@ export default function Menu() {
                                 iconName = 'list';
                                 break;
                             case 'Automotivo':
-                                iconName = 'film';
+                                iconName = 'toolbox';
                                 break;
                             case 'Ler API':
                                 iconName = 'bell';
