@@ -13,14 +13,14 @@ import firebase from '../../services/connectionFirebase';
 
 const Separator = () => <View style={styles.separator} />;
 
-export default function Login(changeStatus) {
+export default function Login({changeStatus}) {
   
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [type, setType] = useState('login');
 
 //metodo handleLogun para verificar se é Login ou não
-function handleLogin({changeStatus}){
+function handleLogin(){
   if(type === 'login'){
     // Aqui fazemos o login
     const user = firebase.auth().signInWithEmailAndPassword(email, password)

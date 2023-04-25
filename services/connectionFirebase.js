@@ -7,7 +7,7 @@ import 'firebase/compat/database';
 
 let firebaseConfig = {
   apiKey: "AIzaSyCO9V7HYJeMEr3HoR27YVDIhJtxKRd3kN0",
-  authDomain: "bdapploja'guigas.firebaseapp.com",
+  authDomain: "bdapplojaguigas.firebaseapp.com",
   projectId: "bdapplojaguigas",
   storageBucket: "bdapplojaguigas.appspot.com",
   messagingSenderId: "603850146083",
