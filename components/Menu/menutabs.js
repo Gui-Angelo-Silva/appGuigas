@@ -52,13 +52,14 @@ export default function Menu() {
                                 iconName = 'list';
                                 break;
                             case 'Automotivo':
-                                iconName = 'toolbox';
+                                iconName = 'car';
                                 break;
                             case 'Ler API':
                                 iconName = 'bell';
                                 break;
                             default:
-                                iconName = 'add-circle-outline';
+                                iconName = 'wrench';
+                                //add-circle-outline
                                 break;
                         }
 
@@ -74,7 +75,7 @@ export default function Menu() {
                 <Tab.Screen name="Home" component={HomeScreen} />
                 <Tab.Screen name="Listar" component={ListScreen} />
                 <Tab.Screen
-                    name="Peças"
+                    name="Automotivo"
                     component={PostScreen}
                 />
                 <Tab.Screen name="Ler API" component={NotificationsScreen} />
