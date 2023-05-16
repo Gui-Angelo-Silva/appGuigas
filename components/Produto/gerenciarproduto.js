@@ -31,7 +31,7 @@ export default function GerenciarProdutos() {
             />
             <TextInput
                 placeholder='Valor'
-                left={<TextInput.Icon icon="sack" />}
+                left={<TextInput.Icon icon="cash" />}
                 style={styles.input}
                 onChangeText={(texto) => setValor(texto)}
                 value={valor}
@@ -59,7 +59,9 @@ const styles = StyleSheet.create({
         borderColor: '#121212', 
         height: 40, 
         fontSize: 13, 
-        borderRadius: 8 
+        borderRadius: 8,
+        marginBottom: 10,
+        backgroundColor: '#ede7d5',
     }, 
 
     separator: { 
