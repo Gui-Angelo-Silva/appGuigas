@@ -4,6 +4,7 @@ import {
     TouchableOpacity, Keyboard, FlatList, ActivityIndicator
 } from 'react-native';
 import { TextInput } from 'react-native-paper';
+import firebase from '../../services/connectionFirebase'
 
 export default function GerenciarProdutos() {
     const [nome, setNome] = useState('');
@@ -40,6 +41,14 @@ export default function GerenciarProdutos() {
         Keyboard.dismiss();
         alert('Produto Cadastrado!');
         clearFields();
+    }
+
+    //método para limpar os campos com valores
+    function clearFields(){
+        setNome('');
+        setMarca('');
+        setPreco('');
+        setCor('');
     }
 
     return (
