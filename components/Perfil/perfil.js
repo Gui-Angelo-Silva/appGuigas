@@ -59,7 +59,7 @@ export default function GerenciarPerfil() {
         <View style={styles.container}>
             <TextInput
                 placeholder='Nome'
-                left={<TextInput.Icon icon="car" />}
+                left={<TextInput.Icon icon="account" />}
                 maxLength={40}
                 style={styles.input}
                 onChangeText={(texto) => setNome(texto)}
@@ -67,28 +67,28 @@ export default function GerenciarPerfil() {
             />
             <TextInput
                 placeholder='Telefone'
-                left={<TextInput.Icon icon="sale" />}
+                left={<TextInput.Icon icon="phone" />}
                 style={styles.input}
                 onChangeText={(texto) => setTelefone(texto)}
                 value={telefone}
             />
             <TextInput
                 placeholder='Idade'
-                left={<TextInput.Icon icon="cash" />}
+                left={<TextInput.Icon icon="calendar-range" />}
                 style={styles.input}
                 onChangeText={(texto) => setIdade(texto)}
                 value={idade}
             />
             <TextInput
                 placeholder='Endereco'
-                left={<TextInput.Icon icon="color" />}
+                left={<TextInput.Icon icon="map-marker-circle" />}
                 style={styles.input}
                 onChangeText={(texto) => setEndereco(texto)}
                 value={endereco}
             />
             <TextInput
                 placeholder='Cidade'
-                left={<TextInput.Icon icon="color" />}
+                left={<TextInput.Icon icon="city" />}
                 style={styles.input}
                 onChangeText={(texto) => setCidade(texto)}
                 value={cidade}
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
         fontSize: 13,
         borderRadius: 8,
         marginBottom: 10,
-        backgroundColor: '#ede7d5',
+        backgroundColor: '#FFFFFF',
     },
 
     separator: {
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
     button: {
         flexDirection: 'column',
         alignItems: 'center',
-        //backgroundColor: '#ede7d5',
+        //backgroundColor: '#FFFFFF',
         //borderWidth: 0.5,
         //borderColor: '#fff',
         height: 40,
